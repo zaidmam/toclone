@@ -1,0 +1,15 @@
+# Environments and IDE
+.venv/
+.idea/
+__pycache__/
+.ipynb_checkpoints/
+
+# Data: not redistributed here, see README for where to download it
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Local project instructions and PyCharm sample script
+CLAUDE.md
+main.py
